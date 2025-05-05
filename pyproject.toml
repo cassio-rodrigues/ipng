@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ipng"
+version = "0.1.0"
+description = "App desenvolvida para auxilio na ONG IPNG"
+authors = ["Cassio Rodrigues"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
